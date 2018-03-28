@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FAST">
+      <UniqueIdentifier>{f57e16fd-4563-4644-96f4-a98ea9cef062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GCVD">
+      <UniqueIdentifier>{93ebf746-c8d3-4e41-9fe5-54801ec727cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Persistence">
+      <UniqueIdentifier>{09f360bc-62b3-4046-b6c8-9105d12c1213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UWP.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\ARDriver.cpp" />
+    <ClCompile Include="..\ATANCamera.cpp" />
+    <ClCompile Include="..\Bundle.cpp" />
+    <ClCompile Include="..\CalibCornerPatch.cpp" />
+    <ClCompile Include="..\CalibImage.cpp" />
+    <ClCompile Include="..\CameraCalibrator.cpp" />
+    <ClCompile Include="..\EyeGame.cpp" />
+    <ClCompile Include="..\GLWindow2.cpp" />
+    <ClCompile Include="..\GLWindowMenu.cpp" />
+    <ClCompile Include="..\HomographyInit.cpp" />
+    <ClCompile Include="..\KeyFrame.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\Map.cpp" />
+    <ClCompile Include="..\MapMaker.cpp" />
+    <ClCompile Include="..\MapPoint.cpp" />
+    <ClCompile Include="..\MapViewer.cpp" />
+    <ClCompile Include="..\MiniPatch.cpp" />
+    <ClCompile Include="..\PatchFinder.cpp" />
+    <ClCompile Include="..\Relocaliser.cpp" />
+    <ClCompile Include="..\ShiTomasi.cpp" />
+    <ClCompile Include="..\SmallBlurryImage.cpp" />
+    <ClCompile Include="..\System.cpp" />
+    <ClCompile Include="..\Tracker.cpp" />
+    <ClCompile Include="..\VideoSource.cpp" />
+    <ClCompile Include="..\FAST\fast_7_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_7_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_8_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_8_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_9_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_9_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_10_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_10_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_11_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_11_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_12_detect.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_12_score.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\fast_corner.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FAST\nonmax_suppression.cpp">
+      <Filter>FAST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GCVD\GLText.cpp">
+      <Filter>GCVD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GCVD\GLWindow.cpp">
+      <Filter>GCVD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GCVD\timer.cpp">
+      <Filter>GCVD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\GStringUtil.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\GUI.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\GUI_impl_readline.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\GUI_language.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\GUI_readline.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\instances.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\PVars.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Persistence\serialize.cpp">
+      <Filter>Persistence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UWP.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\ARDriver.h" />
+    <ClInclude Include="..\ATANCamera.h" />
+    <ClInclude Include="..\Bundle.h" />
+    <ClInclude Include="..\CalibCornerPatch.h" />
+    <ClInclude Include="..\CalibImage.h" />
+    <ClInclude Include="..\CameraCalibrator.h" />
+    <ClInclude Include="..\EyeGame.h" />
+    <ClInclude Include="..\GLWindow2.h" />
+    <ClInclude Include="..\GLWindowMenu.h" />
+    <ClInclude Include="..\HomographyInit.h" />
+    <ClInclude Include="..\KeyFrame.h" />
+    <ClInclude Include="..\LevelHelpers.h" />
+    <ClInclude Include="..\Map.h" />
+    <ClInclude Include="..\MapMaker.h" />
+    <ClInclude Include="..\MapPoint.h" />
+    <ClInclude Include="..\MapViewer.h" />
+    <ClInclude Include="..\MEstimator.h" />
+    <ClInclude Include="..\MiniPatch.h" />
+    <ClInclude Include="..\OpenCV.h" />
+    <ClInclude Include="..\OpenGL.h" />
+    <ClInclude Include="..\PatchFinder.h" />
+    <ClInclude Include="..\Relocaliser.h" />
+    <ClInclude Include="..\ShiTomasi.h" />
+    <ClInclude Include="..\SmallBlurryImage.h" />
+    <ClInclude Include="..\System.h" />
+    <ClInclude Include="..\Tracker.h" />
+    <ClInclude Include="..\TrackerData.h" />
+    <ClInclude Include="..\VideoSource.h" />
+    <ClInclude Include="..\FAST\fast_corner.h">
+      <Filter>FAST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FAST\nonmax_suppression.h">
+      <Filter>FAST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FAST\prototypes.h">
+      <Filter>FAST</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\Addedutils.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\FontStructs.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\GLFont.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\GLHelpers.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\GLWindow.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\GraphSLAM.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\image_interpolate.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\mono.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\Operators.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\sans.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\SE2.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\SE3.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\serif.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\SO2.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\SO3.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GCVD\timer.h">
+      <Filter>GCVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\default.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\GStringUtil.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\GUI.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\GUI_impl.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\GUI_readline.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\instances.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\PVars.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\serialize.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Persistence\type_name.h">
+      <Filter>Persistence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\calibrator_settings.cfg" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
